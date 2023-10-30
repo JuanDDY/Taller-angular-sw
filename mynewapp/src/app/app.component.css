@@ -1,0 +1,86 @@
+/* Add your styles here */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  header {
+      background: black;
+      width: 100%;
+      clear: both;
+      content:'';
+      display: table;
+  
+  }
+  
+  .negrilla {
+    font-weight: bold;
+  }
+  
+  #notacion1 {
+    border-width: 2px;
+    border-style: solid;
+    border-color: darkcyan;
+  
+  }
+  
+  h5.card-title {
+    color:Teal;
+  }
+  
+  h1.tituloPrincipal{
+    box-sizing: border-box;
+    width: 80%;
+    font-weight: bold;
+    font-stretch: semi-condensed;
+    font-size: 50px;
+    text-transform: uppercase;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: #dcdc39;
+    font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  
+  #logoMenu {
+    width: 80px;
+  }
+  
+  #nombreSerie{
+    color:dodgerblue;
+    cursor: pointer;
+  }
+  
+  .menu {
+    width: 900px;
+    margin: 0 auto;
+  }
+  
+  nav {
+    float:left;
+    padding: 5px;
+  }
+  
+  #nombreLogo {
+    color:white;
+    font-size: 20pt;
+  }
+  
+  #cartaContenido {
+    margin: 30px auto;
+  }
+  
+  .table {
+    margin: 30px auto;
+  }
+  
+  
+  

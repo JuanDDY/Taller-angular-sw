@@ -9,7 +9,9 @@ import { dataSeries } from './dataSeries';
 })
 export class SerieComponent implements OnInit {
 
-  private series: Array<Serie> = [];
+  series: Array<Serie> = [];
+
+  promedioTemporadas: number = 0;
 
   constructor() { }
 
@@ -17,8 +19,21 @@ export class SerieComponent implements OnInit {
     return dataSeries;
   }
 
+  darPromedio(): number {
+    
+    let sumatoria: number = 0
+
+    for (let i = 0; i < this.series.length; i++) {
+      console.log(this.series[i].temporadas);
+      sumatoria += this.series[i].temporadas;
+    }
+    return sumatoria / this.series.length;
+  }
+
+
   ngOnInit() {
     this.series = this.getSeriesList();
+    this.promedioTemporadas = this.darPromedio();
   }
 
 }
